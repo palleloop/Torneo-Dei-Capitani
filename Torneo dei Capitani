@@ -1,6 +1,6 @@
 {
 	"Name": "TORNEO DEI CAPITANI",
-	"Version": 1760537901,
+	"Version": 1760560104,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -213,6 +213,7 @@
 				"96",
 				"92",
 				"102",
+				"107",
 				"109",
 				"110",
 				"112",
