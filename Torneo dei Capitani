@@ -1,6 +1,6 @@
 {
 	"Name": "TORNEO DEI CAPITANI",
-	"Version": 1760537583,
+	"Version": 1760537901,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -2177,6 +2177,7 @@
 				3
 			],
 			"SurvivorBalanceTiers": [
+				0,
 				3
 			],
 			"AntiFacecampPermitted": false,
