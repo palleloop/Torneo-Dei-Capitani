@@ -1,6 +1,6 @@
 {
 	"Name": "TORNEO DEI CAPITANI",
-	"Version": 1755428157,
+	"Version": 1760537015,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -34,6 +34,7 @@
 				"46",
 				"49",
 				"51",
+				"294",
 				"262",
 				"55",
 				"274",
@@ -43,12 +44,14 @@
 				"66",
 				"73",
 				"74",
+				"295",
 				"77",
 				"83",
 				"84",
 				"86",
 				"88",
 				"90",
+				"296",
 				"98",
 				"100",
 				"275",
@@ -72,6 +75,7 @@
 				"147",
 				"149",
 				"150",
+				"153",
 				"154",
 				"155",
 				"163",
@@ -82,6 +86,7 @@
 				"174",
 				"175",
 				"277",
+				"291",
 				"178",
 				"180",
 				"264",
@@ -92,12 +97,14 @@
 				"205",
 				"209",
 				"211",
+				"292",
 				"216",
 				"218",
 				"225",
 				"227",
 				"235",
 				"238",
+				"293",
 				"242"
 			],
 			"SurvivorComboPerkBans": [
@@ -142,9 +149,11 @@
 				"34",
 				"36",
 				"38",
+				"39",
 				"279",
 				"280",
 				"261",
+				"50",
 				"54",
 				"56",
 				"57",
@@ -161,6 +170,8 @@
 				"96",
 				"97",
 				"92",
+				"102",
+				"107",
 				"109",
 				"110",
 				"111",
@@ -179,12 +190,14 @@
 			"SurvivorIndvPerkBans": [
 				"1",
 				"8",
+				"21",
 				"24",
 				"246",
 				"273",
 				"34",
 				"36",
 				"38",
+				"39",
 				"279",
 				"280",
 				"261",
@@ -199,6 +212,7 @@
 				"89",
 				"96",
 				"92",
+				"102",
 				"109",
 				"110",
 				"112",
@@ -897,7 +911,8 @@
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [
-				"8"
+				"8",
+				"50"
 			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
@@ -1483,6 +1498,7 @@
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [
+				"50",
 				"65"
 			],
 			"SurvivorComboPerkBans": [],
@@ -1698,7 +1714,9 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"50"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -2012,18 +2030,20 @@
 			],
 			"BalanceTiers": [
 				0,
-				2
+				3
 			],
 			"SurvivorBalanceTiers": [
 				0,
-				2
+				3
 			],
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [
 				"8",
-				"65"
+				"50",
+				"65",
+				"112"
 			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
@@ -3248,9 +3268,57 @@
 			"KillerOfferings": [
 				5
 			]
-		}
-	]
-}
+		},
+		{
+			"Name": "The Krasue",
+			"KillerNotes": "",
+			"IsDisabled": false,
+			"Map": [
+				0
+			],
+			"BalanceTiers": [
+				0
+			],
+			"SurvivorBalanceTiers": [
+				0
+			],
+			"AntiFacecampPermitted": false,
+			"KillerIndvPerkBans": [],
+			"KillerComboPerkBans": [],
+			"SurvivorIndvPerkBans": [],
+			"SurvivorComboPerkBans": [],
+			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedComboPerks": [],
+			"KillerWhitelistedPerks": [],
+			"KillerWhitelistedComboPerks": [],
+			"AddonTiersBanned": [],
+			"IndividualAddonBans": [],
+			"ItemWhitelist": [],
+			"AddonWhitelist": {
+				"Firecracker": {
+					"Addons": []
+				},
+				"Flashlight": {
+					"Addons": []
+				},
+				"Med-Kit": {
+					"Addons": []
+				},
+				"Toolbox": {
+					"Addons": []
+				},
+				"Key": {
+					"Addons": []
+				},
+				"Map": {
+					"Addons": []
+				},
+				"Fog Vial": {
+					"Addons": []
+				}
+			},
+			"SurvivorOfferings": [],
+			"KillerOfferings": []
 		}
 	]
 }
